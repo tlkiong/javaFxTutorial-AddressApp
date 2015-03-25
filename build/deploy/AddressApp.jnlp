@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AddressApp.jnlp">
+  <information>
+    <title>AddressApp</title>
+    <vendor>KiongKiong</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AddressApp.jar" size="33271" download="eager" />
+    <jar href="libs/commons-codec-1.9.jar" size="263965" download="eager" />
+    <jar href="libs/commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="libs/controlsfx-8.0.6_20.jar" size="856539" download="eager" />
+    <jar href="libs/flickr4java-2.12.jar" size="294126" download="eager" />
+    <jar href="libs/fluent-hc-4.4.jar" size="30818" download="eager" />
+    <jar href="libs/httpclient-4.4.jar" size="719304" download="eager" />
+    <jar href="libs/httpclient-cache-4.4.jar" size="158963" download="eager" />
+    <jar href="libs/httpclient-win-4.4.jar" size="17361" download="eager" />
+    <jar href="libs/httpcore-4.4.jar" size="321639" download="eager" />
+    <jar href="libs/httpmime-4.4.jar" size="40627" download="eager" />
+    <jar href="libs/jna-4.1.0.jar" size="914597" download="eager" />
+    <jar href="libs/jna-platform-4.1.0.jar" size="1464423" download="eager" />
+    <jar href="libs/log4j-1.2.17.jar" size="489883" download="eager" />
+    <jar href="libs/scribe-1.3.7.jar" size="90929" download="eager" />
+  </resources>
+  <applet-desc  width="0" height="0" main-class="com.javafx.main.NoJavaFXFallback"  name="AddressApp" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="0" height="0" main-class="ch.makery.address.MainApp"  name="AddressApp" />
+  <update check="background"/>
+</jnlp>
